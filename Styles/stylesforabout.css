@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0ch;
+    margin: 0%;
+  }
+  nav{
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    border-bottom: 10px;
+    border-color: rgb(158, 67, 28);
+  }
+  ul:hover{
+    display: flex;
+    list-style-type: none;
+    background: fixed;
+    font-size:100%;
+    background-color: rgb(140, 56, 56);
+   padding-right: 60px;
+    transition: 2.5s;
+  }
+  ul{
+  display: flex; 
+  }
+  a{
+    padding: 55px;
+    text-decoration: none;
+    color: white;}
+  .mydivimage{
+    display: flex;
+  height: 10ch;
+  width: 2px;
+  }
+  
+  body{
+    background-image:url(../Images/bg\ images\ for\ about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  img:hover {
+    opacity: 0.5;
+  }
+  img{
+    width: 30ch;
+    padding: 5 ch;
+  }
+  .logoimage{
+    width: 15ch;
+    height: 10ch;
+  }
+ .transform{
+  transform: rotateY(150deg);
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(164, 130, 164);
+    min-width: 160px;
+   
+  }
+  .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+      display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: blue;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    transition: 5s;
+  
+  }
+  .dropbtn {
+    display: inline-block;
+    color: rgb(235, 233, 233);
+    text-align: center;
+    padding: 2px 16px;
+    text-decoration: none;
+  }
+   .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  .uppersection{
+    height: 100px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    padding-left: 500px;
+  }
+ .sectiondiv{
+  height: 10px;
+    width: 300px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 0x;
+    
+    
+  
+ }
