@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    padding: 0ch;
+    margin: 0%;
+  }
+  nav{
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(49, 67, 209);
+    border-bottom: 10px;
+    border-color: rgb(158, 67, 28);
+  }
+  body{
+    height: 100;
+    width: 100vw;
+    margin: 0%;
+
+  }
+  .davy{
+    background-image: url(../Images/imagescourses.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size:contain;
+    width: 100%;
+    padding: 319px;
+    font-size: 30px;
+    color: white;
+  }
+  ul:hover{
+    display: flex;
+    list-style-type: none;
+    background: fixed;
+    font-size:100%;
+    text-decoration: underline;
+
+    padding-right: 60px;
+   padding-top: 0ch;
+    transition: 2.5s;
+    
+  }
+  .mydivimage{
+    display: flex;
+  height: 10ch;
+  width: 10ch;
+  }
+  ul{
+    display: flex; }
+  a{
+    padding: 55px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      padding-inline-end: 100px;
+     
+    }
+    
+    li {
+      float: left;
+    }
+    
+    .dropbtn {
+      display: inline-block;
+      color: rgb(235, 233, 233);
+      text-align: center;
+      padding: 2px 16px;
+      text-decoration: none;
+    }
+    
+    .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgb(164, 130, 164);
+      min-width: 160px;
+     
+    }
+    .dropdown-content a{
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+        display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: blue;}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    
+    }
+    .VisitAirbuscom{
+      background-color: rgb(36, 36, 121);
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgb(164, 130, 164);
+      min-width: 160px;
+     
+    }
+    .dropdown-content a{
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+        display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: blue;}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+      transition: 5s;
+    
+    }
+    .dropbtn {
+      display: inline-block;
+      color: rgb(235, 233, 233);
+      text-align: center;
+      padding: 2px 16px;
+      text-decoration: none;
+    }
+     .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+    footer{
+      display:flex;
+      justify-content: space-between;
+      background-color: blue;
+      height: 200px;
+      gap: 0;
+      margin: 0%;
+    }
+    .logoinfooter{
+    height: 50px;
+    padding: 10px;
+    }
+    .mydivimage{
+      display: flex;
+    height: 10ch;
+    width: 10ch;
+    }
+  
+  .divinfooter1{
+    height: 100%;
+    width: 35%;
+    background-color: orange;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  .divinfooter2{
+    height: 100%;
+    width: 35%;
+    background-color: rgb(16, 139, 40);
+  }
+  .divinfooter3{
+    height: 100%;
+    width: 35%;
+    background-color: rgb(42, 1, 1);
+  }
